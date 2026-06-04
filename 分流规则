@@ -1,0 +1,22 @@
+# ======= ehpanda 分流规则 =======
+# 粘贴到 Loon 配置的 [Rule] 段落中，置于 FINAL 规则之前
+
+# --- 主站 ---
+DOMAIN-SUFFIX,e-hentai.org,PROXY
+DOMAIN-SUFFIX,exhentai.org,PROXY
+
+# --- 论坛 ---
+DOMAIN-SUFFIX,forums.e-hentai.org,PROXY
+
+# --- 图片缩略图 CDN ---
+DOMAIN-SUFFIX,ehgt.org,PROXY
+DOMAIN-SUFFIX,gl3ht.com,PROXY
+
+# --- 低画质模式（流量节省） ---
+DOMAIN-SUFFIX,lofi.e-hentai.org,PROXY
+
+# --- Hath@Home 分布式图片节点 ---
+DOMAIN-SUFFIX,hath.network,PROXY
+
+# --- API / 静态资源 ---
+DOMAIN-SUFFIX,s.exhentai.org,PROXY
