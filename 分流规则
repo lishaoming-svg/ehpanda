@@ -1,22 +1,23 @@
-# ======= ehpanda 分流规则 =======
-# 粘贴到 Loon 配置的 [Rule] 段落中，置于 FINAL 规则之前
+# ======= e站分流规则（强制美国节点）=======
+# 请把「美国节点」替换成你配置里实际的美国策略组名称
+# 常见名称示例：美国节点 / US / 🇺🇸 美国 / 美国手动策略 / 美国时延优选 /等
 
 # --- 主站 ---
-DOMAIN-SUFFIX,e-hentai.org,PROXY
-DOMAIN-SUFFIX,exhentai.org,PROXY
+DOMAIN-SUFFIX,e-hentai.org,美国时延优选
+DOMAIN-SUFFIX,exhentai.org,美国时延优选
 
 # --- 论坛 ---
-DOMAIN-SUFFIX,forums.e-hentai.org,PROXY
+DOMAIN-SUFFIX,forums.e-hentai.org,美国时延优选
 
 # --- 图片缩略图 CDN ---
-DOMAIN-SUFFIX,ehgt.org,PROXY
-DOMAIN-SUFFIX,gl3ht.com,PROXY
+DOMAIN-SUFFIX,ehgt.org,美国时延优选
+DOMAIN-SUFFIX,gl3ht.com,美国时延优选
 
 # --- 低画质模式（流量节省） ---
-DOMAIN-SUFFIX,lofi.e-hentai.org,PROXY
+DOMAIN-SUFFIX,lofi.e-hentai.org,美国时延优选
 
 # --- Hath@Home 分布式图片节点 ---
-DOMAIN-SUFFIX,hath.network,PROXY
+DOMAIN-SUFFIX,hath.network,美国时延优选
 
 # --- API / 静态资源 ---
-DOMAIN-SUFFIX,s.exhentai.org,PROXY
+DOMAIN-SUFFIX,s.exhentai.org,美国时延优选
